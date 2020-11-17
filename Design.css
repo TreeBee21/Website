@@ -1,0 +1,58 @@
+.optionsbar{
+    display: flex;
+    justify-content: space-evenly;        /*This line is so that the buttons are spaced out nicely*/
+    padding: 40px;
+    border-bottom: 1px solid transparent;                
+    transition: border-bottom 0.75s;        /*Helps create a nice transition for our buttons*/
+   
+}
+
+.optionsbar a{                              /*Removes the underline, changes the color and helps add a nice transition*/
+    color:grey;
+    text-decoration: none;                  
+    transition: color = 0.75s;
+   
+}
+
+.optionsbar:hover {
+
+    border-bottom: 2px black;
+}
+.optionsbar a:hover{
+    color: black;
+}
+
+.Wrapper img{
+    border: 5px solid grey;
+    height: 750px;
+    width: 500px;
+}
+.Wrapper p{
+ position: absolute;
+ text-align: left;
+ margin-left: 650px;
+ margin-top: -600px;            /*This code is to move the text into the correct spot*/
+}
+.Part  {
+    padding: 5px;
+    width: 850px;
+    float:left;
+}
+.Part iframe{
+    width: 800px;
+    height: 700px;
+}
+.Assignment::after{
+    content: "";
+    clear:both;
+    display:table;     
+}
+.Parts  {
+    padding: 5px;
+    width: 850px;
+    float:left;
+}
+.Parts iframe{
+    width: 1800px;
+    height: 900px;
+}
